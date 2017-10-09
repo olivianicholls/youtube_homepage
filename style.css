@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+.navbar {
+	box-shadow: 2px 2px 3px;
+	height: 60px;
+}
+.logo {
+	display: inline;
+	margin: 20px;
+}
+form {
+	display: inline;
+	margin: 20px;
+	width: 70px;
+}
+.navbar ul {
+list-style-type: none;
+float: right;
+display: inline;
+margin: 20px;
+}
+.navbar li {
+display: inline;
+}
+a {
+	text-decoration: none;
+}
+.video {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.title {
+	text-align: center;
+}
