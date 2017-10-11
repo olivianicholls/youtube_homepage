@@ -6,7 +6,8 @@ body {
 	box-shadow: 0px 2px 3px rgba(88, 88, 88, 0.5);
 	height: 60px;
 	width: 100%;
-	position: fixed;	
+	position: fixed;
+	top: 0;	
 }
 .left-nav {
 	display: inline;
@@ -16,6 +17,10 @@ body {
 }
 .left-nav a{
 	padding: 6px;
+}
+.ion {
+	font-size: 22px;
+	font-weight: bold;
 }
 .logo {
 	width: 80px;
@@ -41,6 +46,7 @@ form {
 	border: 1px solid #dddddd;
 	font-family: 'Roboto', sans-serif;
 	float: left;
+	border-radius: 3px 0 0 3px;
 }
 .search-button {
 	float: left;
@@ -51,6 +57,10 @@ form {
 	border-left: none;
 	height: 31px;
 	width: 65px;
+	border-radius: 0 3px 3px 0;
+}
+.search:focus {
+	outline: black;
 }
 
 .navbar ul {
@@ -62,23 +72,28 @@ margin: 20px;
 }
 .navbar li {
 display: inline;
-padding: 10px;
+padding: 18px;
 }
 a {
 	text-decoration: none;
 	font-family: sans-serif;
 	color: #888888;
 }
-
 #sign-in {
-	color: orange;
-	font-size: 18px;
+	color: red;
+	font-size: 14px;
+	font-weight: bold;
+}
+.fullpage {
+	background-color: #FAFAFA;
+}
+.main {
+	margin-left: 350px;
+	margin-top: 90px;
 }
 .video {
-	align-items: center;
-	justify-content: center;
-	display: flex;
+	
 }
 .title {
-	text-align: center;
+	
 }
