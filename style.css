@@ -8,6 +8,7 @@ body {
 	width: 100%;
 	position: fixed;
 	top: 0;	
+	background-color: white;
 }
 .left-nav {
 	display: inline;
@@ -64,15 +65,15 @@ form {
 }
 
 .navbar ul {
-list-style-type: none;
-float: right;
-display: inline;
-margin: 20px;
+	list-style-type: none;
+	float: right;
+	display: inline;
+	margin: 20px;
 
 }
 .navbar li {
-display: inline;
-padding: 18px;
+	display: inline;
+	padding: 18px;
 }
 a {
 	text-decoration: none;
@@ -85,15 +86,31 @@ a {
 	font-weight: bold;
 }
 .fullpage {
-	background-color: #FAFAFA;
+	background-color: #FEFEFE;
+	height: 100%;
+	margin-top: 60px;
 }
 .main {
 	margin-left: 350px;
-	margin-top: 90px;
+	margin-top: 60px;
 }
+/*aside {
+	width: 300px;
+	height: 300px;
+	background-color: #aaaaaa;
+	display: block;
+}
+*/
 .video {
-	
+}
+iframe {
+	margin-top: 30px;
+	height: 480px;
+	width: 768px;
+	border-width: 0 40px 0 40px;
+	border-style: solid;
 }
 .title {
-	
+}
+.views {
 }
