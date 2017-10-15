@@ -3,11 +3,11 @@ body {
 	font-family: 'Roboto', Arial, sans-serif;
 }
 .navbar {
-	box-shadow: 0px 2px 3px rgba(88, 88, 88, 0.5);
+	box-shadow: 0px 2px 3px rgba(239, 239, 239, 0.5);
 	height: 60px;
 	width: 100%;
 	position: fixed;
-	top: 0;	
+	top: 0;
 	background-color: white;
 }
 .left-nav {
@@ -39,13 +39,13 @@ form {
 	padding: -20px;
 }
 .search {
-	width: 578px;
+	width: 600px;
 	font-size: 16px;
 	padding: 5px;
 	border: 1px solid #dddddd;
 	font-family: 'Roboto', sans-serif;
 	float: left;
-	border-radius: 3px 0 0 3px;
+	border-radius: 2px 0 0 2px;
 }
 .search-button {
 	float: left;
@@ -56,14 +56,14 @@ form {
 	border-left: none;
 	height: 31px;
 	width: 65px;
-	border-radius: 0 3px 3px 0;
+	border-radius: 0 2px 2px 0;
+	font-size: 20px;
 }
 .search:focus {
 	outline: black;
 }
 
 .navbar ul {
-list-style-type: none;
 float: right;
 margin: 20px;
 
@@ -71,6 +71,7 @@ margin: 20px;
 .navbar li {
 display: inline;
 padding: 18px;
+vertical-align: middle;
 }
 a {
 	text-decoration: none;
@@ -85,28 +86,49 @@ a {
 .fullpage {
 	background-color: #FEFEFE;
 	height: 100%;
-	margin: 60px 40px 40px 40px;
-}
-aside {
-	width: 300px;
-	height: 300px;
-	background-color: #aaaaaa;
-	float: right;
-	margin-top: 40px;
+	margin: 50px 100px 40px 100px;
 }
 .video {
-
 }
 iframe {
 	margin-top: 30px;
-	height: 480px;
-	width: 768px;
-	border-width: 0 40px 0 40px;
+	height: 360px;
+	width: 600px;
+	border-width: 0 30px 0 30px;
 	border-style: solid;
 }
 .title {
-
 }
 .views {
-
+}
+aside {
+	width: 400px;
+	height: 300px;
+	float: right;
+	margin-top: 30px;
+}
+.upnext {
+	margin-top: -20px;
+}
+.thumbnail {
+	width: 160px;
+	height: 90px;
+}
+.nextvideo {
+	display: inline-block;
+	margin: 14px 0 14px 0;
+	display: block;
+}
+.vidtitle {
+	display: inline-block;
+	float: right;
+	margin-top: -120px;
+	padding-right: 80px;
+}
+.vidtitle p {
+	font-size: 14px;
+	font-weight: 600;
+}
+#firstup {
+	margin-top: -14px;
 }
