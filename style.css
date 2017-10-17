@@ -2,6 +2,9 @@ body {
 	margin: 0;
 	font-family: 'Roboto', Arial, sans-serif;
 }
+hr {
+	border: .5px solid #ddd;
+}
 .navbar {
 	box-shadow: 0px 2px 3px rgba(239, 239, 239, 0.5);
 	height: 60px;
@@ -10,10 +13,10 @@ body {
 	top: 0;
 	background-color: white;
 }
+/* Left navbar */
 .left-nav {
 	margin: 20px;
 	float: left;
-	font-size: 1.2em
 }
 .left-nav a{
 	padding: 6px;
@@ -28,6 +31,7 @@ body {
 	padding-left: 20px;
 	margin-right: 20px;
 }
+/* Searchbar */
 form {
 	display: inline;
 	margin: 20px;
@@ -47,6 +51,9 @@ form {
 	float: left;
 	border-radius: 2px 0 0 2px;
 }
+.search:focus {
+	outline: black;
+}
 .search-button {
 	float: left;
 	padding: 6px 20px;
@@ -59,36 +66,34 @@ form {
 	border-radius: 0 2px 2px 0;
 	font-size: 20px;
 }
-.search:focus {
-	outline: black;
-}
-
+/* Right navbar */
 .navbar ul {
-float: right;
-margin: 20px;
-
+	float: right;
+	margin: 20px;
 }
 .navbar li {
-display: inline;
-padding: 18px;
-vertical-align: middle;
+	display: inline;
+	padding: 18px;
+	vertical-align: middle;
 }
-a {
-	text-decoration: none;
-	font-family: sans-serif;
+.navbar a {
 	color: #888888;
 }
 #sign-in {
 	color: red;
 	font-size: 14px;
 	font-weight: bold;
+	text-decoration: none;
+	vertical-align: text-top;
 }
 .fullpage {
 	background-color: #FEFEFE;
 	height: 100%;
 	margin: 50px 100px 40px 100px;
 }
-.video {
+/* Featured video */
+.main {
+	width: 600px;
 }
 iframe {
 	margin-top: 30px;
@@ -97,10 +102,66 @@ iframe {
 	border-width: 0 30px 0 30px;
 	border-style: solid;
 }
-.title {
+.title h3 {
+	font-weight: 400;
 }
 .views {
+	color: #888;
+	font-weight: 200;
+	line-height: 40%;
+	padding-bottom: 4px;
 }
+/* Video Information */
+.info {
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: #ddd;
+	width: 640px;
+}
+.user {
+	display: inline-block;
+}
+.user img {
+	width: 50px;
+	float: left;
+	margin-top: 16px;
+	padding-left: 7px;
+}
+.user p {
+	margin-top: 26px;
+	padding-left: 70px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.user p:last-child {
+	margin-top: -14px;
+	font-weight: 200;
+	font-size: 13px;
+	color: #888;
+}
+.subscribe {
+	float: right;
+	margin-top: 20px;
+}
+.subbtn {
+	display: inline-block;
+	background-color: red;
+	color: white;
+	font-weight: 500;
+	font-size: 14px;
+	border: none;
+	border-radius: 2px;
+	height: 36px;
+	width: 130px;
+}
+.description p {
+	margin: 10px 0;
+	padding-left: 70px;
+	font-size: 14px;
+	line-height: 160%;
+	width: 570px;
+}
+/* Sidebar */
 aside {
 	width: 400px;
 	height: 300px;
@@ -110,6 +171,9 @@ aside {
 .upnext {
 	margin-top: -20px;
 }
+.upnext h4 {
+	font-weight: 400;
+}
 .thumbnail {
 	width: 160px;
 	height: 90px;
@@ -117,18 +181,29 @@ aside {
 .nextvideo {
 	display: inline-block;
 	margin: 14px 0 14px 0;
-	display: block;
 }
 .vidtitle {
 	display: inline-block;
-	float: right;
-	margin-top: -120px;
+	margin-top: -78px;
+	margin-left: 10px;
 	padding-right: 80px;
+	vertical-align: text-top;
 }
-.vidtitle p {
+.vidtitle a {
 	font-size: 14px;
-	font-weight: 600;
+	color: black;
+	font-weight: 500;
+	text-decoration: none;
 }
-#firstup {
-	margin-top: -14px;
+#firstup a {
+	margin-top: 100px;
+}
+.byline {
+	margin-top: -4px;
+	font-weight: 300;
+	font-size: 13px;
+	color: #777;
+}
+.byline p{
+line-height: 7px;
 }

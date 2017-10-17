@@ -1,121 +1,200 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Youtube</title>
-<link href='style.css' type='text/css' rel='stylesheet'>
-<link rel="stylesheet" href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600" rel="stylesheet">
+  <title>Youtube</title>
+  <meta charset="utf-8">
+  <link href='style.css' type='text/css' rel='stylesheet'>
+  <link rel="stylesheet" href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 </head>
 <body>
   <!-- Navbar begins -->
-<div class='navbar'>
-<div class='left-nav'>
-<a href='#'><i class="ion ion-navicon"></i></a>
-<a href='#'><img class='logo' src='https://www.youtube.com/yt/about/media/images/brand-resources/logos/YouTube-logo-full_color_light.svg'></a>
-</div>
-<div class='searchbar'>
-<form>
-<input class='search' title='search' type='text' placeholder='Search'/>
-<button class='search-button'><i class="ion-android-search"></i></button>
-</form>
-</div>
-<ul>
-<li><a href='#'><i class='ion ion-ios-arrow-thin-up'></i></a></li>
-<li><a href='#'><i class='ion ion-android-apps'></i></a></li>
-<li><a href='#'><i class='ion ion-android-more-vertical'></i></a></li>
-<li><a id='sign-in' href='#'>SIGN IN</a></li>
-</ul>
-</div>
-<!-- Navbar ends-->
-<div class='fullpage'>
-<div class='main'>
-  <!-- Sidebar begins -->
-<aside>
-  <div class='upnext'>
-    <h4>Up Next</h4>
-        <img class='thumbnail' src='http://cdn3-www.dogtime.com/assets/uploads/gallery/goldador-dog-breed-pictures/puppy-1.jpg'>
-      <div class='vidtitle' id='firstup'>
-        <p>A Story of a Good Boy</p>
-      </div>
-      <hr>
-    <div class='nextvideo'>
-      <img class='thumbnail' src='https://www.hearingdogs.org.uk/globalassets/6.-about-us/dog-no-jacket-750-x-646.jpg'>
-      </div>
-      <div class='vidtitle'>
-        <p>The Goodest Boy of All</p>
-      </div>
-    <div class='nextvideo'>
-      <img class='thumbnail' src='https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/01/23/10/a-dogs-purpose.jpg'>
+  <div class='navbar'>
+    <div class='left-nav'>
+      <a href='#'><i class="ion ion-navicon"></i></a>
+      <a href='#'><img class='logo' src='https://www.youtube.com/yt/about/media/images/brand-resources/logos/YouTube-logo-full_color_light.svg'></a>
     </div>
-    <div class='vidtitle'>
-      <p>So pure. So good.</p>
+    <div class='searchbar'>
+      <form>
+        <input class='search' title='search' type='text' placeholder='Search'/>
+        <button class='search-button'><i class="ion-android-search"></i></button>
+      </form>
     </div>
-    <div class='nextvideo'>
-      <img class='thumbnail' src='https://www.hearingdogs.org.uk/globalassets/6.-about-us/dog-no-jacket-750-x-646.jpg'>
+    <div class='right-nav'>
+    <ul>
+      <li><a href='#'><i class='ion ion-ios-arrow-thin-up'></i></a></li>
+      <li><a href='#'><i class='ion ion-android-apps'></i></a></li>
+      <li><a href='#'><i class='ion ion-ios-bell'></i></a></li>
+      <li><a id='sign-in' href='#'>SIGN IN</a></li>
+    </ul>
+  </div>
+  </div>
+  <!-- Navbar ends-->
+  <div class='fullpage'>
+      <!-- Sidebar -->
+      <aside>
+        <div class='upnext'>
+          <h4>Up Next</h4>
+          <div class='relvid'>
+          <img class='thumbnail' src='http://cdn3-www.dogtime.com/assets/uploads/gallery/goldador-dog-breed-pictures/puppy-1.jpg'>
+          <div class='vidtitle' id='firstup'>
+            <a href='#'>A Story of a Good Boy</a>
+          <div class='byline'>
+            <p>Dog is God</p>
+            <p>3.5M Views</p>
+          </div>
+          </div>
+          </div>
+          <hr>
+          <div class='relvid'>
+          <div class='nextvideo'>
+            <img class='thumbnail' src='https://www.hearingdogs.org.uk/globalassets/6.-about-us/dog-no-jacket-750-x-646.jpg'>
+          </div>
+          <div class='vidtitle'>
+            <a href='#'>The Goodest Boy of All</a>
+            <div class='byline'>
+              <p>Dog is God</p>
+              <p>3.5M Views</p>
+            </div>
+          </div>
+          </div>
+          <div class='relvid'>
+          <div class='nextvideo'>
+            <img class='thumbnail' src='https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/01/23/10/a-dogs-purpose.jpg'>
+          </div>
+          <div class='vidtitle'>
+            <a href='#'>So pure. So good.</a>
+            <div class='byline'>
+              <p>Dog is God</p>
+              <p>3.5M Views</p>
+            </div>
+          </div>
+          </div>
+          <div class='relvid'>
+          <div class='nextvideo'>
+            <img class='thumbnail' src='https://www.hearingdogs.org.uk/globalassets/6.-about-us/dog-no-jacket-750-x-646.jpg'>
+          </div>
+          <div class='vidtitle'>
+            <a href='#'>The Goodest Boy of All</a>
+            <div class='byline'>
+              <p>Dog is God</p>
+              <p>3.5M Views</p>
+            </div>
+          </div>
+          </div>
+          <div class='relvid'>
+          <div class='nextvideo'>
+            <img class='thumbnail' src='https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/01/23/10/a-dogs-purpose.jpg'>
+          </div>
+          <div class='vidtitle'>
+            <a href='#'>So pure. So good.</a>
+            <div class='byline'>
+              <p>Dog is God</p>
+              <p>3.5M Views</p>
+            </div>
+          </div>
+          </div>
+          <div class='relvid'>
+          <div class='nextvideo'>
+            <img class='thumbnail' src='https://www.hearingdogs.org.uk/globalassets/6.-about-us/dog-no-jacket-750-x-646.jpg'>
+          </div>
+          <div class='vidtitle'>
+            <a href='#'>The Goodest Boy of All</a>
+            <div class='byline'>
+              <p>Dog is God</p>
+              <p>3.5M Views</p>
+            </div>
+          </div>
+          </div>
+          <div class='relvid'>
+          <div class='nextvideo'>
+            <img class='thumbnail' src='https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/01/23/10/a-dogs-purpose.jpg'>
+          </div>
+          <div class='vidtitle'>
+            <a href='#'>So pure. So good.</a>
+            <div class='byline'>
+              <p>Dog is God</p>
+              <p>3.5M Views</p>
+            </div>
+          </div>
+          </div>
+          <div class='relvid'>
+          <div class='nextvideo'>
+            <img class='thumbnail' src='https://www.hearingdogs.org.uk/globalassets/6.-about-us/dog-no-jacket-750-x-646.jpg'>
+          </div>
+          <div class='vidtitle'>
+            <a href='#'>The Goodest Boy of All</a>
+            <div class='byline'>
+              <p>Dog is God</p>
+              <p>3.5M Views</p>
+            </div>
+          </div>
+          </div>
+          <div class='relvid'>
+          <div class='nextvideo'>
+            <img class='thumbnail' src='https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/01/23/10/a-dogs-purpose.jpg'>
+          </div>
+          <div class='vidtitle'>
+            <a href='#'>So pure. So good.</a>
+            <div class='byline'>
+              <p>Dog is God</p>
+              <p>3.5M Views</p>
+            </div>
+          </div>
+          </div>
+          <div class='relvid'>
+          <div class='nextvideo'>
+            <img class='thumbnail' src='https://www.hearingdogs.org.uk/globalassets/6.-about-us/dog-no-jacket-750-x-646.jpg'>
+          </div>
+          <div class='vidtitle'>
+            <a href='#'>The Goodest Boy of All</a>
+            <div class='byline'>
+              <p>Dog is God</p>
+              <p>3.5M Views</p>
+            </div>
+          </div>
+          </div>
+          <div class='relvid'>
+          <div class='nextvideo'>
+            <img class='thumbnail' src='https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/01/23/10/a-dogs-purpose.jpg'>
+          </div>
+          <div class='vidtitle'>
+            <a href='#'>So pure. So good.</a>
+            <div class='byline'>
+              <p>Dog is God</p>
+              <p>3.5M Views</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </aside>
+      <!-- Main video -->
+      <div class='main'>
+      <div class='video'>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allowfullscreen autoplay></iframe>
       </div>
-      <div class='vidtitle'>
-        <p>The Goodest Boy of All</p>
+      <div class='title'>
+        <h3>Contributing to Open Source Part I: The Easy Way</h3>
       </div>
-    <div class='nextvideo'>
-      <img class='thumbnail' src='https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/01/23/10/a-dogs-purpose.jpg'>
-    </div>
-    <div class='vidtitle'>
-      <p>So pure. So good.</p>
-    </div>
-    <div class='nextvideo'>
-      <img class='thumbnail' src='https://www.hearingdogs.org.uk/globalassets/6.-about-us/dog-no-jacket-750-x-646.jpg'>
+      <div class='views'>
+        <p>1434 Views</p>
       </div>
-      <div class='vidtitle'>
-        <p>The Goodest Boy of All</p>
+      <div class='info'>
+        <div class='user'>
+          <img src='https://raw.githubusercontent.com/eladnava/material-letter-icons/master/dist/png/L.png'>
+          <p>The Odin Project</p>
+          <p>Published on Feb 27, 2014</p>
+        </div>
+        <div class='subscribe'>
+          <button class='subbtn'>SUBSCRIBE</button>
+        </div>
+        <div class='description'>
+        <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of <!-- Shown after SHOW MOREcontributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at http://theodinproject.com.--></p>
       </div>
-    <div class='nextvideo'>
-      <img class='thumbnail' src='https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/01/23/10/a-dogs-purpose.jpg'>
-    </div>
-    <div class='vidtitle'>
-      <p>So pure. So good.</p>
-    </div>
-    <div class='nextvideo'>
-      <img class='thumbnail' src='https://www.hearingdogs.org.uk/globalassets/6.-about-us/dog-no-jacket-750-x-646.jpg'>
+      <div class='comments'>
       </div>
-      <div class='vidtitle'>
-        <p>The Goodest Boy of All</p>
-      </div>
-    <div class='nextvideo'>
-      <img class='thumbnail' src='https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/01/23/10/a-dogs-purpose.jpg'>
     </div>
-    <div class='vidtitle'>
-      <p>So pure. So good.</p>
     </div>
-    <div class='nextvideo'>
-      <img class='thumbnail' src='https://www.hearingdogs.org.uk/globalassets/6.-about-us/dog-no-jacket-750-x-646.jpg'>
-      </div>
-      <div class='vidtitle'>
-        <p>The Goodest Boy of All</p>
-      </div>
-    <div class='nextvideo'>
-      <img class='thumbnail' src='https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/01/23/10/a-dogs-purpose.jpg'>
-    </div>
-    <div class='vidtitle'>
-      <p>So pure. So good.</p>
-    </div>
-</div>
-</aside>
-<!-- Sidebar ends -->
-<!-- Main video -->
-<div class='video'>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allowfullscreen autoplay></iframe>
-</div>
-<div class='title'>
-<h3>Title of Video</h3>
-</div>
-<div class='views'>
-<p>1434 Views</p>
-</div>
-<div class='description'>
-</div>
-<div class='comments'>
-</div>
-</div>
-</div>
+  </div>
 </body>
 </html>
